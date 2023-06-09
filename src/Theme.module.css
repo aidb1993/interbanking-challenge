@@ -1,0 +1,22 @@
+:root {
+  --background: #fdf0d5;
+  --primary: #669bbcff;
+  --secondary: #003049ff;
+  --text: #000;
+  --text-light: #fff;
+  --text-dark: #000;
+  --text-muted: #707070;
+  --dark: #13212b;
+  --border: #ccc;
+  --border-radius: 5px;
+  --box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --cursor: pointer;
+  --font-size: 1rem;
+  --font-family: sans-serif;
+
+  --barn-red: #780000ff;
+  --fire-brick: #c1121fff;
+  --papaya-whip: #fdf0d5ff;
+  --prussian-blue: #003049ff;
+  --air-superiority-blue: #669bbcff;
+}

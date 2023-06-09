@@ -1,0 +1,42 @@
+@import "../../../Theme.module.css";
+.button {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  font-size: 1rem;
+  outline: none;
+  cursor: pointer;
+}
+
+.small {
+  width: 100px;
+}
+
+.medium {
+  width: 200px;
+}
+
+.large {
+  width: 300px;
+}
+
+.primary {
+  background-color: #707070;
+
+  color: var(--text-light);
+
+  &:hover {
+    background-color: var(--primary);
+  }
+}
+
+.secondary {
+  background-color: var(--dark);
+  color: #ccc;
+
+  &:hover {
+    background-color: #5a5959;
+  }
+}

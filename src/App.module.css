@@ -1,0 +1,34 @@
+@import "./theme.module.css";
+
+.appContainer {
+  text-align: center;
+  font-family: var(--font-family);
+  background-color: var(--background-color);
+}
+
+.inputContainer {
+  background-color: var(--primary);
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  margin: 20px;
+  padding: 20px;
+  border: var(--border-width) solid var(--border-color);
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+  max-width: 80%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 1200px) {
+  .appContainer {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .inputContainer {
+    flex-direction: row;
+  }
+}
